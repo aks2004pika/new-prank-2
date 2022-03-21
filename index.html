@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <section class="bg">
+    <div class="mainBlock">
+      <div class="text">
+        <p class="questionOutput">Are you ready to waste your time? (part-2)</p>
+        <p class="description">Only enter if you are a complete
+          dogwater and don't have anything else to do. Thanks!</p>
+      </div>
+      <div class="things">
+        <input type="text" name="name" class="nameInput" placeholder="Enter your name">
+        <input type="text" name="name" class="ageInput" placeholder="Enter your answer">
+      </div>
+      <div class="btnSection">
+        <button class="btn">START</button>
+        <button class="ans30">30 years</button>
+        <button class="ans43">43 years</button>
+        <button class="ans57">57 years</button>
+        <button class="big">It's big</button>
+        <button class="small">It's small</button>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+      </div>
+    </div>
+    <div class="answerSection">
+      <p class="wrong">WRONG</p>
+      <p class="right">CORRECT</p>
+    </div>
+    <div class="saidBlock">
+      <video src="./images/said.mp4" width="100%" class="saidVideo"></video>
+      <button class="saidBtn">Next</button>
+    </div>
+    <div class="lookBlock">
+      <img src="./images/monkey.png" alt="" width="90%" class="monkeyImage">
+      <p class="lookOutput"></p>
+      <img src="./images/pig.jpg" alt="" class="pigImage" width="90%">
+    </div>
+    <div class="btnPrankBlock">
+      <p class="prankText"></p>
+      <button class="prankBtn">Don't click me</button>
+    </div>
+    <div class="scareBlock">
+      <video src="./images/scare.mp4" class="scaryVideo" width="95%"></video>
+    </div>
+  </section>
+
+  <!-- Rating state start
+
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected Add rating here out of 5 -->
+
+  <!-- Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>  -->
+</body>
+
+</html>
