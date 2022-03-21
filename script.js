@@ -254,5 +254,9 @@ const scaryVideo = document.querySelector(".scaryVideo");
 function sacre() {
   prankBlock.style.display = "none";
   scaryVideo.play();
-  scareBlock.style.display = "flex";
+  setTimeout(inScare, 1000);
+
+  function inScare() {
+    scareBlock.style.display = "flex";
+  }
 }
